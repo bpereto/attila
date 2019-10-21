@@ -50,6 +50,7 @@
 
 			<section class="post-info">
 
+                <!--
 				<div class="post-share">
 					<span class="post-info-label">{{t "Share:"}}</span>
 					<a class="twitter" href="https://twitter.com/share?text={{title}}&url={{url absolute="true"}}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
@@ -59,6 +60,7 @@
 						<i class="ic ic-facebook"></i><span class="hidden">Facebook</span>
 					</a>
 				</div>
+                --!>
 
 				{{#if tags}}
 				<aside class="post-tags">
@@ -69,12 +71,13 @@
 
 				<div class="clear"></div>
 
+                <!--
 				{{#has author="count:>1"}}
 					<aside class="post-authors">
 						<p class="post-authors-info">{{t "This post was a collaboration between:"}}</p>
 						<p class="post-authors-authors">{{authors separator=", "}}</p>
 					</aside>
-        {{else}}
+                {{else}}
 					{{#primary_author}}
 						<aside class="post-author">
 							<figure class="post-author-avatar avatar">
@@ -103,7 +106,8 @@
 							<div class="clear"></div>
 						</aside>
 					{{/primary_author}}
-        {{/has}}
+                {{/has}}
+                -->
 
 			</section>
 
